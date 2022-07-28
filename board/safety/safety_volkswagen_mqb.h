@@ -3,7 +3,7 @@ const int VOLKSWAGEN_MQB_MAX_RT_DELTA = 188;            // 4 max rate up * 50Hz 
 const uint32_t VOLKSWAGEN_MQB_RT_INTERVAL = 250000;     // 250ms between real time checks
 const int VOLKSWAGEN_MQB_MAX_RATE_UP = 10;              // 2.0 Nm/s RoC limit (EPS rack has own soft-limit of 5.0 Nm/s)
 const int VOLKSWAGEN_MQB_MAX_RATE_DOWN = 10;            // 5.0 Nm/s RoC limit (EPS rack has own soft-limit of 5.0 Nm/s)
-const int VOLKSWAGEN_MQB_DRIVER_TORQUE_ALLOWANCE = 80;
+const int VOLKSWAGEN_MQB_DRIVER_TORQUE_ALLOWANCE = 50;
 const int VOLKSWAGEN_MQB_DRIVER_TORQUE_FACTOR = 3;
 
 #define MSG_ESP_19      0x0B2   // RX from ABS, for wheel speeds
